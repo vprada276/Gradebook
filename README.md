@@ -1,10 +1,10 @@
-# Gradebook
+## Gradebook
 Java Gradebook Manager
 
 Console-based Java program to manage student grades.
 The program allows users to add students, compute grade statistics, search by PID, modify grades, and import/export data using CSV files.
 
-# Features
+# Features:
 
 Add students with first name, last name, PID, and score
 
@@ -28,7 +28,7 @@ Display tables of scores or letter grades
 
 Import and export student records using CSV files
 
-# Commands
+# Commands:
 
 After entering students and typing DONE, the following commands are available:
 
@@ -76,7 +76,7 @@ PID must be a 7-digit number
 
 Score must be between 0 and 100
 
-# Project Structure
+# Project Structure:
 Main.java       → Handles user input and commands
 Gradebook.java  → Stores students and computes statistics
 Student.java    → Student data structure
